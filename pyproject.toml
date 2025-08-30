@@ -1,0 +1,16 @@
+[project]
+name = "lora_experiments"
+version = "0.1.0"
+description = "Experiments with LoRa"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "meshtastic>=2.7.1",
+    "numpy>=2.3.2",
+    "scipy>=1.16.1",
+]
+
+[tool.uv.sources]
+meshtastic = { git = "https://github.com/pdxlocations/meshtastic-python", branch = "export-config-timeouts" }
