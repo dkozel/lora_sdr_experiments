@@ -1,0 +1,18 @@
+{
+    "annotations": [
+    ],
+    "captures": [
+        {
+            "core:datetime": "2025-08-30T14:54:03.163Z",
+            "core:frequency": 869525391,
+            "core:sample_start": 0
+        }
+    ],
+    "global": {
+        "core:datatype": "cu8_le",
+        "core:hw": "OsmoSDR: 'driver=rtlsdr,manufacturer=Realtek,product=RTL2838UHIDIR,serial=2,soapy=12,tuner=\\'Rafael Micro R820T\\''",
+        "core:recorder": "Gqrx 2.17.7",
+        "core:sample_rate": 300000,
+        "core:version": "1.0.0"
+    }
+}
